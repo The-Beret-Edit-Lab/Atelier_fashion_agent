@@ -1,5 +1,7 @@
 from google.adk.agents.llm_agent import Agent
 from agents.tools import search_catalog, check_stock
+from google.genai import types
+
 
 INSTRUCTION = """
 You are the Atelier Principal Fashion Discovery Agent.
@@ -18,6 +20,11 @@ root_agent = Agent(
     # in its own reasoning and responses.Please use a name that matches your root DIR agent name
     name="agents",
     description="An autonomous capsule wardrobe stylist and fashion discovery agent.",
+     generate_content_config=types.GenerateContentConfig(
+        http_options=types.HttpOptions(
+            retry_options=types.HttpRetryOptions(initial_delay=1, attempts=2),
+          )
+        ),
     instruction=INSTRUCTION,
     tools=[search_catalog, check_stock],
 )

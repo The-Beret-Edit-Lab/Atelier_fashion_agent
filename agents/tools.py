@@ -67,7 +67,12 @@ def search_catalog(aesthetic_query: str, max_budget: float = 1000.0) -> str:
     return json.dumps(results)
 
 def check_stock(item_id: str) -> str:
-    """Verifies stock availability for a specific garment ID."""
+    """Verifies stock availability for a specific garment ID.
+
+    Args:
+        item_id: Unique SKU identifier (e.g. 'ATL-01').
+    """
+    print(f"\n⚡ [TOOL CALLED] check_stock(item_id='{item_id}')")
     for item in CATALOG:
         if item["id"] == item_id:
             return json.dumps({"id": item_id, "in_stock": item["stock"] > 0, "units": item["stock"]})
