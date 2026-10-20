@@ -14,7 +14,7 @@ Follow this step-by-step article on how to achieve this and build your first AI 
 
 1. Fashion Discovery Agent Code Gist: https://gist.github.com/JosephineAkello/e2aee3025885047b9faf600ab55da03b
 
-2. Fashion Discovery Tools: https://gist.github.com/JosephineAkello/f89502ad85b06e6d50c18b6275565e97
+2. Fashion Discovery Tools Code Gist: https://gist.github.com/JosephineAkello/f89502ad85b06e6d50c18b6275565e97
 
 # Contribution Guidelines:
 
