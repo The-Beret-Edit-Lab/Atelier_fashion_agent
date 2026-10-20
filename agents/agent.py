@@ -17,7 +17,7 @@ Discipline:
 root_agent = Agent(
     model="gemini-3.8-flash",
     # The Agent Naming is important for the agent to be able to reference itself /agents
-    # in its own reasoning and responses.Please use a name that matches your root DIR agent name
+    # in its own reasoning and responses.Please use a name that matches your root DIRECTORY agent name
     name="agents",
     description="An autonomous capsule wardrobe stylist and fashion discovery agent.",
      generate_content_config=types.GenerateContentConfig(
