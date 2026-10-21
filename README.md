@@ -8,7 +8,7 @@
 
 Follow this step-by-step article on how to achieve this and build your first AI Fashion Discovery Agent.
 
-[Article Link] To be Updated
+- How to Build your first AI Agent(Fashion Discovery AI Agent): Step by Step Guide [Article Link](https://medium.com/@onyangomaureen95/build-your-first-ai-agent-autonomous-fashion-discovery-agent-b05c146d59de)
 
 # Code Gists and Resources:
 
